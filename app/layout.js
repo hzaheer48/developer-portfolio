@@ -1,26 +1,26 @@
-import { GoogleTagManager } from "@next/third-parties/google";
-import { Inter } from "next/font/google";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import Footer from "./components/footer";
-import ScrollToTop from "./components/helper/scroll-to-top";
-import Navbar from "./components/navbar";
-import "./css/card.scss";
-import "./css/globals.scss";
-const inter = Inter({ subsets: ["latin"] });
+import { GoogleTagManager } from '@next/third-parties/google';
+import { Inter } from 'next/font/google';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Footer from './components/footer';
+import ScrollToTop from './components/helper/scroll-to-top';
+import Navbar from './components/navbar';
+import './css/card.scss';
+import './css/globals.scss';
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: "Portfolio of Abu Said - Software Developer",
+  title: 'Hammad Zaheer - Software Engineer',
   description:
-    "This is the portfolio of Abu Said. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    'My name is Hammad Zaheer. I am a Software Engineer with more than two years of experience in full-stack development and AI/ML. I have a strong interest in building scalable applications, integrating AI-driven solutions, and exploring new technologies. My core skills include React, Next.js, NestJS, Node.js, GraphQL, PostgreSQL, and Docker, along with expertise in supervised and unsupervised learning, NLP, and deep learning. I enjoy problem-solving, continuous learning, and developing solutions that combine modern software engineering with artificial intelligence.',
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body className={inter.className}>
         <ToastContainer />
-        <main className="min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white">
+        <main className='min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white'>
           <Navbar />
           {children}
           <ScrollToTop />

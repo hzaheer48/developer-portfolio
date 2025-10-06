@@ -1,17 +1,15 @@
 export const personalData = {
-  name: "ABU SAID",
-  profile: '/profile.png',
-  designation: "Software Developer",
-  description: "My name is ABU SAID. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
-  email: 'abusaid7388@gmail.com',
-  phone: '+8801608797655',
-  address: 'Middle Badda, Dhaka, Bangladesh - 1212 ',
-  github: 'https://github.com/said7388',
-  facebook: 'https://www.facebook.com/abusaid.riyaz/',
-  linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
-  twitter: 'https://twitter.com/said7388',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
-}
+  name: 'Hammad Zaheer',
+  profile: '/profile.jpg',
+  designation: 'AI/ML Researcher & Full-Stack Software Engineer',
+  description:
+    'My name is Hammad Zaheer. I am a Software Engineer with more than two years of experience in full-stack development and AI/ML. I have a strong interest in building scalable applications, integrating AI-driven solutions, and exploring new technologies. My core skills include React, Next.js, NestJS, Node.js, GraphQL, PostgreSQL, and Docker, along with expertise in supervised and unsupervised learning, NLP, and deep learning. I enjoy problem-solving, continuous learning, and developing solutions that combine modern software engineering with artificial intelligence.',
+  email: 'hmmdzaheer@gmail.com',
+  phone: '+923057778734',
+  address: 'Erlangen, Bavaria, Germany',
+  github: 'https://github.com/hzaheer48',
+  linkedIn: 'https://www.linkedin.com/in/hzaheer48/',
+  devUsername: 'hzaheer48',
+  resume:
+    'https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing',
+};

@@ -1,20 +1,16 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: 'M.Sc. Artificial Intelligence',
+    duration: 'Oct 2025 – Present',
+    institution:
+      'Friedrich-Alexander University Erlangen-Nürnberg (FAU), Germany',
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: 'B.S. Computer Science',
+    duration: 'Sep 2019 – Jun 2023',
+    institution: 'Quaid-i-Azam University, Islamabad, Pakistan',
+    cgpa: '3.80 / 4.00',
   },
-  {
-    id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
-  }
-]
+];
